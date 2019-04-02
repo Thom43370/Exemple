@@ -1,0 +1,377 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+
+
+/* 
+    Created on : 3 juin 2017, 13:55:51
+    Author     : Thomas
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: 1.8rem;
+}
+
+p {
+    font-size: 14px;
+}
+
+header {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,017647+100 */
+    background: rgb(255, 255, 255);
+    /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(1, 118, 71, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(255, 255, 255, 1) 0%, rgba(1, 118, 71, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(255, 255, 255, 1) 0%, rgba(1, 118, 71, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#017647', GradientType=1);
+    /* IE6-9 */
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 60px;
+    top: 0;
+    left: 0;
+}
+
+.logo {
+    padding-left: 40px;
+}
+
+.aveugle {
+    display: none;
+}
+
+.AfficheFormquestion {
+    border: 2px solid red;
+    padding: 50px;
+}
+
+
+/*Menu normal*/
+
+.vgp {
+    height: 60px;
+    padding: 10px;
+}
+
+.vgp a {
+    font-size: 16px;
+    color: #fff;
+}
+
+.vgp a:hover {
+    color: #fff;
+}
+
+.vgp2 {
+    display: none;
+    width: 100%;
+    position: absolute;
+    left: -10%;
+    top: 40px;
+    padding: 20px;
+    padding-bottom: 10px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cae3d9+0,97c7b4+100 */
+    background: rgb(202, 227, 217);
+    /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(202, 227, 217, 1) 0%, rgba(151, 199, 180, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(202, 227, 217, 1) 0%, rgba(151, 199, 180, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(202, 227, 217, 1) 0%, rgba(151, 199, 180, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#cae3d9', endColorstr='#97c7b4', GradientType=1);
+    /* IE6-9 */
+    /*border: 1px solid #fff;*/
+    box-shadow: 2px 2px 20px #333;
+}
+
+.vgp a {
+    color: #0275d8;
+}
+
+.vgp2:hover {
+    display: block;
+}
+
+.vgp2 a:hover {
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.vgp:hover {
+    font-size: 12px;
+    margin-top: -5px;
+    background-color: #7CB8A0;
+    width: 100%;
+}
+
+#hambvgp {
+    background-color: #7CB8A0;
+}
+
+.vgp:hover .vgp2 {
+    display: block;
+}
+
+
+/*////////CLIENTS//////////*/
+
+.clients {
+    height: 60px;
+    padding: 10px;
+}
+
+.clients a {
+    font-size: 16px;
+    color: #0275d8;
+}
+
+.clients a:hover {
+    font-size: 12px;
+    color: #fff;
+}
+
+.clients2 {
+    display: none;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    padding: 20px;
+    padding-bottom: 10px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cae3d9+0,97c7b4+100 */
+    background: rgb(202, 227, 217);
+    /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(202, 227, 217, 1) 0%, rgba(151, 199, 180, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(202, 227, 217, 1) 0%, rgba(151, 199, 180, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(202, 227, 217, 1) 0%, rgba(151, 199, 180, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#cae3d9', endColorstr='#97c7b4', GradientType=1);
+    /* IE6-9 */
+    /*border: 1px solid #fff;*/
+    box-shadow: 2px 2px 20px #333;
+}
+
+.clients2:hover {
+    display: block;
+}
+
+.clients2 a:hover {
+    font-size: 18px;
+    color: #0275d8;
+    text-decoration: none;
+}
+
+.clients:hover {
+    font-size: 12px;
+    margin-top: -5px;
+    background-color: #7CB8A0;
+    color: #FFF;
+    width: 100%;
+}
+
+.clients:hover .clients2 {
+    display: block;
+}
+
+
+/*////////QUESTION//////////*/
+
+.question {
+    height: 60px;
+    padding: 10px;
+}
+
+.question a {
+    font-size: 16px;
+    color: #fff;
+}
+
+.question a:hover {
+    font-size: 12px;
+    color: #fff;
+}
+
+.question2 {
+    display: none;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 40px;
+    padding: 20px;
+    padding-bottom: 10px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cae3d9+0,97c7b4+100 */
+    background: rgb(202, 227, 217);
+    /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(202, 227, 217, 1) 0%, rgba(151, 199, 180, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(202, 227, 217, 1) 0%, rgba(151, 199, 180, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(202, 227, 217, 1) 0%, rgba(151, 199, 180, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#cae3d9', endColorstr='#97c7b4', GradientType=1);
+    /* IE6-9 */
+    /*border: 1px solid #fff;*/
+    box-shadow: 2px 2px 20px #333;
+}
+
+.question2:hover {
+    display: block;
+}
+
+.question2 a:hover {
+    font-size: 18px;
+    color: #0275d8;
+    text-decoration: none;
+}
+
+.question:hover {
+    margin-top: -5px;
+    background-color: #7CB8A0;
+    width: 100%;
+}
+
+.question:hover .question2 {
+    display: block;
+}
+
+
+/*hamburger*/
+
+#hambvgp {
+    display: none;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    top: 60px;
+}
+
+.menuhamb {
+    text-align: right;
+}
+
+
+/*corps du site*/
+
+.rouge {
+    color: red;
+}
+
+section {
+    margin-top: 120px;
+}
+
+label {
+    width: 200px;
+}
+
+.chapeau {
+    font-weight: bolder;
+}
+
+.border {
+    border: 1px solid #000;
+}
+
+#ConfirmationQuestionnaire {
+    display: none;
+    left: 0px;
+    top: 0px;
+    background-color: #000;
+    opacity: 0.9;
+    width: 1140px;
+    height: 100%;
+    color: #fff;
+    background-size: cover;
+    position: absolute;
+    z-index: 2;
+}
+
+.col-3,
+.col-4,
+.col-2,
+.col-5,
+.col-6 {
+    padding: 5px;
+    width: 100%;
+}
+
+.valide {
+    background-image: url('../img/btn-valide.png');
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 35px;
+    border: none;
+}
+
+.valide:hover {
+    background-image: url('../img/btn-valide2.png');
+}
+
+#avert-duree {
+    display: none;
+}
+
+.grand-20 {
+    font-size: 20px;
+}
+
+.grand-18 {
+    font-size: 18px;
+}
+
+.gauche {
+    float: left;
+}
+
+.droite {
+    float: right;
+}
+
+.prepa {
+    width: 100%;
+    padding: 80px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cae3d9+0,97c7b4+100 */
+    background: rgb(202, 227, 217);
+    /* Old browsers */
+    background: -moz-linear-gradient(left, rgba(202, 227, 217, 1) 0%, rgba(151, 199, 180, 1) 100%);
+    /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, rgba(202, 227, 217, 1) 0%, rgba(151, 199, 180, 1) 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, rgba(202, 227, 217, 1) 0%, rgba(151, 199, 180, 1) 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+.input-res{
+     width: 100%;
+     max-width: 300px;
+     box-sizing: border-box;
+}
+.input-resdemi{
+    width: 50%;
+    max-width: 150px;
+    box-sizing: border-box;
+}
+.input-restiers{
+    width: 30%;
+    max-width: 150px;
+    box-sizing: border-box;
+}
